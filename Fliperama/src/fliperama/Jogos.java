@@ -16,8 +16,8 @@ public class Jogos {
 
     public void jogar(Cartao cartaoComCreditos) {
         this.lC.passarCartao(cartaoComCreditos);
-        if (this.lC.saldo() < valorJogo) {
-            System.err.println("Você não tem saldo suficiente" + "\n");
+        if (this.lC.returnSaldo() < valorJogo) {
+            System.err.println("Você não tem saldo suficiente\n");
         } else {
             this.tiquetesGanhos = rdm.nextInt(20) + 1;
             System.out.println("Você ganhou " + this.tiquetesGanhos + " tiquetes" + "\n");

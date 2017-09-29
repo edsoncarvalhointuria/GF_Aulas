@@ -14,15 +14,15 @@ public class LeitorDeCartao {
         this.cartao = cartao;
     }
     
-    public int tiquetes(){
+    public int returnTiquetes(){
         return this.tiquetes;
     }
     
-    public double saldo(){
+    public double returnSaldo(){
         return this.saldo;
     }
     
-    public int numCartao(){
+    public int returnNumCartao(){
         return this.numCartao;
     }
     

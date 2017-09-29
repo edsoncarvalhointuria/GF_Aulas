@@ -8,6 +8,7 @@ public class Cartao {
 
     public Cartao(int numCartao) {
         this.numCartao = numCartao;
+        
     }
 
     public int numCartao() {
